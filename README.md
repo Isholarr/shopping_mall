@@ -1,16 +1,41 @@
-# shopping_mall
+# Simple Shopping App
 
-A new Flutter project.
+## Overview
+This is a simple shopping app built with Flutter. It displays a list of products and allows users to add items to the checkout list. Users can also remove items from the checkout list and proceed to an order successful screen.
 
-## Getting Started
+## Features
+- Bottom navigation bar with two items: Products and Checkout.
+- Products screen displays a list of products.
+- Checkout screen displays items added for checkout.
+- Add and remove items functionality.
+- Navigate to an Order Successful screen from the Checkout screen.
 
-This project is a starting point for a Flutter application.
+## Setup Instructions
+1. Clone the repository:
+git clone <https://github.com/Isholarr/shopping_mall>
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. Navigate to the project directory:
+cd simple_shopping_app
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+3. Get the dependencies:
+flutter pub get
+
+
+4. Run the app:
+flutter run
+
+
+
+## Screenshots
+![Products Screen]()
+
+![Checkout Screen](screenshots/checkout_screen.png)
+![Order Successful Screen](screenshots/order_successful_screen.png)
+
+## APK Download
+[Download APK](https://example.com/download)
+
+## License
+This project is licensed under the MIT License.
